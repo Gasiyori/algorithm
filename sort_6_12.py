@@ -19,4 +19,12 @@ while(count < k and array_a[count] < array_b[count]):
         array_a[count], array_b[count] = array_b[count], array_a[count] # 값 swap
         count += 1
 
+# for문 사용시
+"""
+for i in range(k):
+    if array_a[i] < array_b[i]:
+        array_a[count], array_b[count] = array_b[count], array_a[count] # 값 swap
+    else:
+        break
+"""
 stdout.write(str(sum(array_a)))
